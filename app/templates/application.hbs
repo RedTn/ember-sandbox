@@ -1,18 +1,25 @@
 {{#paper-toolbar}}
     {{#paper-toolbar-tools}}
-        {{#paper-button iconButton=true}}
+        {{#paper-button iconButton=true onClick=(action "toggleSideNav")}}
         {{paper-icon "menu"}}
         {{/paper-button}}
         <h2>
-        Toolbar with Icon Buttons
+        RedTran Ember Sandbox
         </h2>
-        <span class="flex"></span>
-        {{#paper-button iconButton=true}}
-        {{paper-icon "favorite"}}
-        {{/paper-button}}
-        {{#paper-button iconButton=true}}
-        {{paper-icon "more_vert"}}
-        {{/paper-button}}
     {{/paper-toolbar-tools}}
 {{/paper-toolbar}}
+{{#paper-sidenav-container class="inner-sidenav"}}
+
+{{#paper-sidenav
+    class="md-whiteframe-z2"
+    name="left2"
+    open=sideNavOpen
+    lockedOpen=false
+    onToggle=(action (mut sideNavOpen))}}
+    {{#paper-content padding=true}}
+        {{#paper-button href=(href-to "theme-changer")}}Theme Changer{{/paper-button}}
+    {{/paper-content}}
+{{/paper-sidenav}}
+
+{{/paper-sidenav-container}}
 {{outlet}}

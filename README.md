@@ -1,7 +1,6 @@
-[![Build Status](https://travis-ci.org/RedTn/ember-sandbox.svg?branch=master)](https://travis-ci.org/RedTn/ember-sandbox)
-
 # ember-sandbox
 
+[![Build Status](https://travis-ci.org/RedTn/ember-sandbox.svg?branch=master)](https://travis-ci.org/RedTn/ember-sandbox)
 [![Greenkeeper badge](https://badges.greenkeeper.io/RedTn/ember-sandbox.svg)](https://greenkeeper.io/)
 
 This README outlines the details of collaborating on this Ember application.
