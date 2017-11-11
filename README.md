@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/RedTn/ember-sandbox.svg?branch=master)](https://travis-ci.org/RedTn/ember-sandbox)
+
 # ember-sandbox
 
 This README outlines the details of collaborating on this Ember application.
