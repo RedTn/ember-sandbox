@@ -22,7 +22,7 @@
   },
   "lint-staged": {
     "{app,tests,mirage,config}/**/!(.eslintrc).js": [
-      "prettier",
+      "npm run prettier",
       "eslint --fix --max-warnings 0",
       "git add"
     ]
