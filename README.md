@@ -1,11 +1,13 @@
 [![Build Status](https://travis-ci.org/RedTn/ember-sandbox.svg?branch=master)](https://travis-ci.org/RedTn/ember-sandbox)
+[![Greenkeeper badge](https://badges.greenkeeper.io/RedTn/ember-sandbox.svg)](https://greenkeeper.io/)
 
 # ember-sandbox
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/RedTn/ember-sandbox.svg)](https://greenkeeper.io/)
-
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
+
+## Demo
+[redtn-ember.surge.sh](redtn-ember.surge.sh)
 
 ## Prerequisites
 
