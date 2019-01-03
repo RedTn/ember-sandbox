@@ -28,7 +28,7 @@
     ]
   },
   "devDependencies": {
-    "@html-next/flexi-default-styles": "^2.0.2",
+    "@html-next/flexi-default-styles": "^2.2.0",
     "@html-next/flexi-dsl": "^2.0.3",
     "@html-next/flexi-layouts": "^2.0.3",
     "broccoli-asset-rev": "^2.4.5",
